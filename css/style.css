@@ -24,6 +24,10 @@ body{
     background-color: red;
 }
 
+.box__item:hover{
+    transform: scale(1.1);
+}
+
 .box__item:nth-child(1){
     background-image: url("../Images/1.jpg");
     background-repeat: no-repeat;
